@@ -111,13 +111,13 @@ main h3 {
 
 .main h4 {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1;
   color: #272044;
   margin: 0;
 }
 .main h5 {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 1;
   margin: 0;
@@ -125,11 +125,11 @@ main h3 {
 main p {
   font-style: normal;
   font-size: 16px;
-  opacity: 0.7;
   font-weight: 400;
   line-height: 1.5;
   color: #272044;
   opacity: 0.7;
+  margin: 0;
 }
 section {
   max-width: 100%;
@@ -247,5 +247,10 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+
+  .grid-video-first-row,
+  .grid-video-second-row {
+    grid-template-columns: 1fr;
   }
 }
